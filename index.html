@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LCA in Binary Tree</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lowest Common Ancestor Finder</h1>
+    
+    <label for="treeInput">Enter Binary Tree (level-order, use "null" for empty nodes):</label>
+    <input type="text" id="treeInput" placeholder="e.g. 3,5,1,6,2,0,8,null,null,7,4" />
+
+    <label for="pInput">Enter node p:</label>
+    <input type="number" id="pInput" placeholder="e.g. 5" />
+
+    <label for="qInput">Enter node q:</label>
+    <input type="number" id="qInput" placeholder="e.g. 1" />
+
+    <button onclick="findLCA()">Find LCA</button>
+
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
