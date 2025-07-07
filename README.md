@@ -3,7 +3,7 @@
 This is a simple interactive website that allows users to input a binary tree in level-order format and two node values `p` and `q`, then find their **Lowest Common Ancestor** (LCA) using C++ logic.
 
 ---
-
+## Live Demo (https://rishabhpandey30.github.io/LCA-Finder/)
 ## 📁 Project Structure
 
 LCA-Binary-Tree/
